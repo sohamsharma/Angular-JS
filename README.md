@@ -1,6 +1,6 @@
 # Angular-JS
 Open directory in Powershell
->npm isntall
+>npm install
 
 >ng serve
 
