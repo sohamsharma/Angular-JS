@@ -1,0 +1,48 @@
+.stats-wrapper
+  padding-top: 20px
+  .text
+    color: #949494
+    font-size: 1.5em    
+  .number
+    color: #bebebe
+    font-size: 1.7em
+.wrapper
+  width: 100%
+  background: #fff
+  margin: 0
+  border-radius: 5px
+  margin-bottom: 120px
+  .task
+    min-height: 45px
+    border-bottom: 1px solid #e3e3e3
+    padding: 10px
+    &:last-child
+      border-bottom: none
+    p
+      margin: 0
+      height: 100%
+      line-height: 100%
+      label
+        width: 100%
+        height: auto
+        span
+          text-decoration: none 
+      &.done
+        label
+          span
+            text-decoration: line-through
+.form-wrapper 
+  position: fixed
+  width: 90%
+  bottom: 0
+  background: #fff
+  left: 50%
+  margin: 0
+  border-radius: 10px
+  transform: translate(-50%)
+  .row
+    margin: 0
+  .input-field
+    width: calc(100% - 150px)
+  .submit  
+    padding-top: 20px
